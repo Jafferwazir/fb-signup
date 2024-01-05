@@ -1,0 +1,186 @@
+body{
+    background-color: rgb(236, 241, 241);
+    font-family: Helvetica;
+}
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%% Header %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* ................Parent of Head Elements ............... */
+.headerParent {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    background-color: rgb(65, 65, 198);
+    padding-left: 50px;
+}
+
+.headerParent>div {
+color: white;
+margin: 5px;
+}
+
+input {
+    height: 25px;    
+}
+
+/* ............Child 01 CSS...................... */
+.father{
+    display: flex;
+    flex-flow: row;
+    }
+
+.father > form {
+    padding: 3px;
+    text-align: left;
+    margin: 2px;
+}
+/* ..............  Desinging the Top Header Button  ..................... */
+#in {
+    background-color: rgb(93, 93, 229);
+    color: white;
+    margin: 15px;
+    border: 1px solid rgb(23, 23, 130);
+    cursor: pointer;
+    text-align:center;
+    height: 15px;
+    opacity: 0.9;
+    font-size: small;
+  }
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%    Main Body (is Divided into 02 Columns)    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+/* ................Left Column Code ........................ */
+.pait{
+
+display: grid;
+grid-template-columns: auto auto auto ;
+background-color: rgb(236, 241, 241);
+}
+
+.pait>div{
+    padding: 5px;
+}
+
+.leftcolumn{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.leftcolumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    row-gap: 10px;
+    }
+
+.intro>h1{
+    padding-left: 45px;
+    padding-top: 60px;
+    line-height: 50px;
+}
+
+.photo>img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 25px;
+    padding-left: 45px;
+    padding-top: 20px;
+    }
+.find>img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 25px;
+    padding-left: 45px;
+    padding-top: 20px;
+    }
+.new>img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    display: block;
+    margin-right: 25px;
+    padding-left: 45px;
+padding-top: 20px;
+}
+    
+#grey{
+    color: rgb(65, 63, 63);
+}
+#bold{
+    font-weight: bold;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   Right Column of Body   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.rightcolumn{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+
+/* ................. Using Grin to Control the 4 Itmes ............................ */
+.data{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    row-gap: 5px;
+}
+.email{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.lastname{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.mobilenumber{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.newpassword{
+    grid-column-start: 1;
+grid-column-end: 5;}
+
+/* ..................... Moving Text to the Right of BirthDay RAdio Buttons .................. */
+
+.birparent{
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+    color: rgb(33, 33, 172);
+    column-gap: 5px;
+    /* border: 1px solid red; */
+    align-items: center;
+    height: 10px;
+}
+.birparent > bir4,h6{
+    font-weight: bold;
+}
+
+/* ......................MAle Female RAdio Buttons ................................ */
+
+.radiobtns{
+    height: 20px;
+    display: block;
+}
+
+/* ................Set a style for last SIGN UP buttons..................... */
+button {
+    background-color: #1fa51a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 8px 8px 0px;
+    border: none;
+    cursor: pointer;
+    width: 158px;
+    opacity: 0.9;
+    font-size: large;
+    border-radius: 5px;
+  }
+
+/* ...................to make term , data policy color BLUE.............. */
+  #blue{
+    color: rgb(48, 48, 180);
+  }

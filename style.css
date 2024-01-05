@@ -1,0 +1,120 @@
+body{
+    background-color: aliceblue;
+    font-family: Helvetica;
+}
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%% Header %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* ................Parent of Head Elements ............... */
+.headerParent {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-around;
+    background-color: rgb(65, 65, 198);
+}
+
+.headerParent > div {
+
+color: white;
+}
+
+/* ............Child 03 CSS...................... */
+.father{
+    display: flex;
+    flex-flow: row;
+}
+
+.father > form {
+padding: 5px;
+text-align: left;
+margin: 10px;
+
+
+}
+/* ..............sing In Button CSS..................... */
+#in {
+    background-color: rgb(65, 65, 198);
+    color: white;
+    padding: 14px 20px;
+    margin: 20px;
+    border: 1px solid rgb(23, 23, 130);
+    cursor: pointer;
+    text-align: center;
+    height: 5px;
+    opacity: 0.9;
+    font-size: medium;
+  }
+
+
+
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%% Main Body %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+/* .leftcolumn {grid-row: leftcolumn;} */
+/* .rightcolumn {grid-row: rightcolumn;} */
+
+/* .pait{ */
+
+/* display: grid; */
+/* grid-template-areas: 'lefttcolumn leftcolumn leftcolumn leftcolumn rightcolumn rightcolumn'; */
+/* grid-template-rows: 'lefttcolumn leftcolumn leftcolumn leftcolumn rightcolumn rightcolumn'; */
+/* column-gap: 300px; */
+/* background-color: rgb(211, 226, 226); */
+/* } */
+
+/* .pait>div{ */
+    /* margin: 5px;
+    padding: 10px; */
+    /* border: 1px solid black; */
+    
+/* } */
+
+.pait{
+    display: flex;
+    /* align-items: stretch; */
+    justify-content: space-around;
+}
+
+.pait>div{
+    color: black;
+    border: 1px solid black;
+    margin: 10px;
+}
+ 
+/* .leftcolumn{
+    width: 800px;
+    height: auto;
+}
+.rightcolumn{
+    width: 650px;
+    height: auto;
+} */
+
+
+.leftcolumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    row-gap: 10px;
+    padding-left: 10px;
+}
+
+.leftcolumn>img{
+    width: 100px;
+    height: 100px;
+}
+
+
+/* Set a style for all buttons */
+button {
+    background-color: #1fa51a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 8px 8px 0px;
+    border: none;
+    cursor: pointer;
+    width: 158px;
+    opacity: 0.9;
+    font-size: large;
+  }
